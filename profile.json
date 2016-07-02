@@ -1,0 +1,214 @@
+{
+  "defaultAction": "SCMP_ACT_ERRNO",
+  "architectures": [
+    "SCMP_ARCH_X86_64",
+    "SCMP_ARCH_X86"
+  ],
+  "syscalls": [
+    {
+      "name": "set_robust_list",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "gettid",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "rt_sigprocmask",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "mprotect",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "signaldeliver",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "procexit",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "execve",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "brk",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "access",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "open",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "arch_prctl",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "set_tid_address",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "rt_sigaction",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "getrlimit",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "uname",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "pread",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "geteuid",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "socket",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "connect",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "openat",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "getdents",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "newfstatat",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "mkdir",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "chown",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "setsockopt",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "ioctl",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "bind",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "listen",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "pwrite",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "dup",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "socketpair",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "rt_sigsuspend",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "setgid",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "setgroups",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "setuid",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "prctl",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "io_setup",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "accept",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "sigreturn",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "exit_group",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    },
+    {
+      "name": "unlink",
+      "action": "SCMP_ACT_ALLOW",
+      "args": []
+    }
+  ]
+}
