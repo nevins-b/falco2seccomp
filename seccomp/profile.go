@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/deckarep/golang-set"
-	"github.com/nevinsb/falco2seccomp/config"
+	"github.com/nevins-b/falco2seccomp/config"
 )
 
 type Profile struct {
