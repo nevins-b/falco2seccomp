@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/nevinsb/falco2seccomp/config"
-	"github.com/nevinsb/falco2seccomp/event"
+	"github.com/nevins-b/falco2seccomp/config"
+	"github.com/nevins-b/falco2seccomp/event"
 )
 
 func main() {
